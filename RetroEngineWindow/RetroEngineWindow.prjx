@@ -1,0 +1,37 @@
+<Project name="RetroEngineWindow" standardNamespace="RetroEngineWindow" description="" newfilesearch="None" enableviewstate="True" version="1.1" projecttype="C#">
+  <Contents>
+    <File name=".\AssemblyInfo.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+    <File name=".\RetroEngineWindow.cs" subtype="Code" buildaction="Compile" dependson="" data="" />
+  </Contents>
+  <References>
+    <Reference type="Assembly" refto="..\Tao.Cg.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.DevIl.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.FreeGlut.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.Glfw.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.Ode.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.OpenAl.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.OpenGl.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.OpenGl.ExtensionLoader.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.OpenGl.Glu.dll" localcopy="True" />
+    <Reference type="Assembly" refto="..\Tao.Sdl.dll" localcopy="True" />
+    <Reference type="Project" refto="ExpertMultimedia" localcopy="True" />
+  </References>
+  <DeploymentInformation target="" script="" strategy="File" />
+  <Configuration runwithwarnings="True" name="Release">
+    <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="Standard" warninglevel="4" nowarn="" includedebuginformation="False" optimize="True" unsafecodeallowed="True" generateoverflowchecks="False" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+    <Execution commandlineparameters="" consolepause="True" />
+    <Output directory="..\bin" assembly="RetroEngineWindow" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+  </Configuration>
+  <Configurations active="Release">
+    <Configuration runwithwarnings="True" name="Debug">
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="Standard" warninglevel="4" nowarn="" includedebuginformation="True" optimize="False" unsafecodeallowed="True" generateoverflowchecks="True" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\bin" assembly="RetroEngineWindow" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+    </Configuration>
+    <Configuration runwithwarnings="True" name="Release">
+      <CodeGeneration runtime="MsNet" compiler="Csc" compilerversion="Standard" warninglevel="4" nowarn="" includedebuginformation="False" optimize="True" unsafecodeallowed="True" generateoverflowchecks="False" mainclass="" target="Exe" definesymbols="" generatexmldocumentation="False" win32Icon="" noconfig="False" nostdlib="False" />
+      <Execution commandlineparameters="" consolepause="True" />
+      <Output directory="..\bin" assembly="RetroEngineWindow" executeScript="" executeBeforeBuild="" executeAfterBuild="" executeBeforeBuildArguments="" executeAfterBuildArguments="" />
+    </Configuration>
+  </Configurations>
+</Project>
